@@ -18,14 +18,14 @@ Whenever dealing with python based applications, it is a very good practice to m
 
 Next, we need to make sure that our dependies are in order, so we will use the following command to run the requirements for this project. The command is as follows:
 
-```zsh
-(nyei) ➜  information-retrieval-system pip install -r requirements.txt
+```python
+pip install -r requirements.txt
 ```
 
 After the successfull installation of the libraries and dependencies, we will proceed forward to run the application by running the server from `app.py`. The command is as follows:
 
-```zsh
-(nyei) ➜  information-retrieval-system python3.8 app.py
+```python
+python3.8 app.py
 ```
 Following this, a prompt will be generated asking to route the attention to `locahost:5000` which is the default server address for this application rendering a front-end to interact with the user.
 
