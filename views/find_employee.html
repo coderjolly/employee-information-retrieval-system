@@ -1,0 +1,25 @@
+{% extends "templates/public_template.html" %}
+
+{% block title %} Find Employee {% endblock title %}
+
+{% block main %} 
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <h2>Employee ID </h2>
+            <form action="/emp_info" method="post">
+                <div class="form-group">
+                    <label for="Employee ID">Enter Employee ID</label>
+                    <input type="text" class="form-control" name="id" placeholder="Enter ID">
+                    <br/>
+                    <button type="submit" value="Submit" class="btn btn-success">Submit</button>
+                </div>
+            </form>
+
+            <br><br>
+            <a href="/">Go back to home page</a>
+        </div>
+    </div>
+</div>
+
+{% endblock main %}

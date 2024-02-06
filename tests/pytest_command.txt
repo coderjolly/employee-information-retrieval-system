@@ -1,0 +1,1 @@
+pytest -rPx -v --tb=long >> test_report.txt --html=test_report.html

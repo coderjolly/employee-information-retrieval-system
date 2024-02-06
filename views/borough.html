@@ -1,0 +1,47 @@
+{% extends "templates/public_template.html" %}
+
+{% block title %} Find Employee {% endblock title %}
+
+{% block main %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Filter Employee by Borough </h2>
+            <form action="/borough_filter_borough" method="post">
+                <p>Please select your borough:</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="borough" id="BROOKLYN"value="BROOKLYN">
+                    <label class="form-check-label" for="BROOKLYN">BROOKLYN</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="borough" id="MANHATTAN"value="MANHATTAN">
+                    <label class="form-check-label" for="MANHATTAN">MANHATTAN</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="borough" id="BRONX"value="BRONX">
+                    <label class="form-check-label" for="BRONX">BRONX</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="borough" id="QUEENS"value="QUEENS">
+                    <label class="form-check-label" for="QUEENS">QUEENS</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="borough" id="RICHMOND"value="RICHMOND">
+                    <label class="form-check-label" for="RICHMOND">RICHMOND</label>
+                </div>
+
+                <br><br>
+                <button type="submit" value="Submit" class="btn btn-success">Submit</button>
+            </form>
+
+            <br><br>
+            <a href="/">Go back to home page</a>
+        </div>
+    </div>
+</div>
+
+{% endblock main %}

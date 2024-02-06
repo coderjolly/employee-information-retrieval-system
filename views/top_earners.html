@@ -1,0 +1,66 @@
+{% extends "templates/public_template.html" %}
+
+{% block title %} Top 5 Earners by Year {% endblock title %}
+
+{% block main %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h2>Filter by Year </h2>
+            <form action="/top_earners_filter" method="post">
+
+                <p>Please select your fiscal year:</p>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="year" value="2014">
+                    <label class="form-check-label" for="2014">2014</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="year" value="2015">
+                    <label class="form-check-label" for="2015">2015</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="year" value="2016">
+                    <label class="form-check-label" for="2016">2016</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="year" value="2017">
+                    <label class="form-check-label" for="2017">2017</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="year" value="2018">
+                    <label class="form-check-label" for="2018">2018</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="year" value="2019">
+                    <label class="form-check-label" for="2019">2019</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="year" value="2020">
+                    <label class="form-check-label" for="2020">2020</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="year" value="2021">
+                    <label class="form-check-label" for="2021">2021</label>
+                </div>
+
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="year" value="2022">
+                    <label class="form-check-label" for="2022">2022</label>
+                </div>
+
+                <br><br>
+                <button type="submit" value="Submit" class="btn btn-success">Submit</button>
+            </form>
+
+            <br/>
+            <a href="/">Go back to home page</a>
+        </div>
+    </div>
+</div>
+{% endblock main %}

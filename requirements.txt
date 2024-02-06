@@ -1,0 +1,5 @@
+pandas
+pysqlite3
+flask
+sodapy
+Path
