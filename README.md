@@ -4,6 +4,32 @@ A flask application that makes use of MVC architecture along with a front-end fo
 
 This project aims to use various **ETL** techniques and manipulations for *cleaning*, *indexing*, *extracting* and *loading* the dataset for running various user defined queries on the dataset.
 
+## Directory Structure
+
+```
+├── Archive/                 <- Contains scripts related to archiving data or code.
+|
+├── ETL/                     <- Contains scripts for the Extract, Transform, and Load (ETL) process.
+|
+├── README.md                <- Top-level README file providing an overview of the project.
+├── app.py                   <- Main application script.
+├── controller/              <- Contains scripts for controlling application behavior.
+│   ├── __init__.py          <- Initialization script for the controller module.
+│   └── controller.py        <- Script for controlling application behavior.
+├── database/                <- Contains database files.
+│ 
+├── models/                  <- Contains scripts defining application models.
+│ 
+├── requirements.txt         <- File listing project dependencies.
+├── ss/                      <- Contains screenshots or images related to the project.
+│
+├── static/                  <- Contains static files for the application.
+│
+├── tests/                   <- Contains test scripts.
+│
+└── views/                   <- Contains view templates for the application.
+```
+
 ## What is MVC ?
 
 MVC stands for Model-View-Controller, which is a software architectural pattern commonly used in designing and developing user interfaces for web applications. It separates the application into three interconnected components:
