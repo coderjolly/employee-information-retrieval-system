@@ -1,0 +1,11 @@
+operation,configname,value
+Datapull,database,NYC_payroll_data
+Datapull,data_url,data.cityofnewyork.us
+Datapull,data_set,h957-334f
+Datapull,app_token,6De3J3p1O2YQdb9JTZUWvMAXy
+Datapull,staginglocation,/Users/harman/Desktop/information-ret/Data/
+Pushdata,databaselocation,/Users/harman/Documents/sqlite/NYC_payroll_data.db
+Pushdata,tableemployee,employee
+Pushdata,tablepayroll,payroll_reference
+Pushdata,tableagency,agency
+Pushdata,tableempdetails,employee_details
