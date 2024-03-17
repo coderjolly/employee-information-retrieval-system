@@ -23,9 +23,11 @@ This project aims to use various **ETL** techniques and manipulations for *clean
 └── views/                   <- Contains view templates for the application.
 ```
 
-## What is MVC ?
+## Architecture
 
-MVC stands for Model-View-Controller, which is a software architectural pattern commonly used in designing and developing user interfaces for web applications. It separates the application into three interconnected components:
+![architecture](/ss/architecture.png)
+
+Model-View-Controller, which is a software architectural pattern commonly used in designing and developing user interfaces for web applications. It separates the application into three interconnected components:
 
 - Model: The Model represents the data and business logic of the application. It encapsulates the data and provides methods to manipulate that data.
 - View: The View is responsible for presenting the user interface to the user. It displays the data from the model to the user and sends user actions to the controller for processing.
